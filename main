@@ -1,0 +1,8 @@
+Coffee coffee=new Coffee ();
+while (true) {
+if (coffee.Empty) {
+coffee.Refill();
+} else {
+coffee.Drink();
+}
+}
